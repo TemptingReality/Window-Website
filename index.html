@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+<link rel="shortcut icon" href="Logo.png"/>
+<head>
+        <meta charset = "utf-8" />
+        <Title>Window Website</title>
+        <link href="css/style.css" rel="stylesheet">
+        
+</head>
+<div class = "wrapper"></div>
+    
+
+    <body>
+
+        <div class="desktop_icons">
+            <div class="icon_box" id="about_me_pane_button">
+                <img src = "Logo_Blue.png">
+            </div>
+            <div class="icon_box" id="pictures_pane_button">
+                <img src = "camera2.png">
+            </div>
+            <div class="icon_box" id = "folder_pane_button">
+                <img src = "work_folder.png">
+            </div>
+        </div>
+        
+        <div class = "pane_wrapper" style="visibility: visible;">
+            <div class = "pane">
+                <p class="main_text">Hi, welcome to my website! <br> <br> Feel free to explore with the buttons bellow. <br> <br> This website right now is best experienced on desktop.</p>
+
+            </div>
+            <div class = "pane_header" style="background-color: #ffd000;">
+                    <div class = "pane_title"><span><b>Welcome</b></span></div>
+                    <div class = "close"><span>X</span></div>
+                </div>
+            <div class = "corner"></div>
+            <div class = "close"></div>
+        </div>
+
+
+
+        <div class = "pane_wrapper" id="about_me_pane" style= "visibility: hidden;">
+            <div class = "pane">
+                <p class="main_text">Hi, I'm the creator of this website! How did you get here I don't know, but now you are here and hopefully enjoying the content that this site provides! <br><br>What does this site contain? Any projects that I am working on or in the process of completing that I want to share with the world will be located in the files section of this website. I think I will soon be adding a blog section so that I can type even more stuff out. But, those are just my hopes and dreams and at some point you just have to publish your work and continue your aspirations. <br><br> Right now this is simply a desktop like environment website mirroring how I organize my own projects. </p>
+
+            </div>
+            <div class = "pane_header">
+                    <div class = "pane_title"><span><b>About Me</b></span></div>
+                    <div class = "close"><span>X</span></div>
+                </div>
+            <div class = "corner"></div>
+            <div class = "close"></div>
+        </div>
+
+        <div class = "pane_wrapper" id="pictures_pane" style="visibility: hidden;">
+            <div class = "pane">
+                <div class = "about_me_picture"></div>
+            </div>
+            <div class = "pane_header">
+                <div class = "pane_title"><span><b>Camcorder</b></span></div>
+                <div class = "close"><span>X</span></div>
+            </div>
+            <div class = "corner"></div>
+            <div class = "close"></div>
+        </div>
+
+        <div class = "pane_wrapper" id="website_folder_pane" style="visibility: hidden;">
+            <div class = "pane">
+                
+            </div>
+            <div class = "pane_header">
+                <div class = "pane_title"><span><b>Files/Website that is super cool.txt</b></span></div>
+                <div class = "close"><span>X</span></div>
+            </div>
+            <div class = "corner"></div>
+            <div class = "close"></div>
+        </div>
+
+        <div class = "pane_wrapper" id="folder_pane" style=" visibility: hidden;">
+            <div class = "pane">
+                <div class="folders">
+                    <div class="folder" id="website_folder_pane_button"><img src = "work_folder.png" style="width: 100%;"><br><p>Website that is super cool</p></div>
+                </div>
+            </div>
+            <div class = "pane_header" style="background-color: rgb(106, 106, 106);">
+                <div class = "pane_title"><span><b>Files</b></span></div>
+                <div class = "close"><span>X</span></div>
+            </div>
+            <div class = "corner"></div>
+            <div class = "close"></div>
+        </div>
+        
+        <script src="js/panes.js"></script>
+    </body>
+</div>
